@@ -1,0 +1,182 @@
+
+/*1-CORRES DOS TEXTOS E FUNDOS*/
+
+/*bod{ background: rgb(248, 245, 245);
+     background-image: url('./imagens/Fundo_abstrato.jpg');
+background-repeat: repeat;
+background-attachment: fixed;} -->*/
+
+ /*Fundo do documento*/     
+body
+{ background: linear-gradient(90deg, rgb(1, 3, 24), rgb(2 4 33), rgb(2 4 33));
+     color: rgb(230, 231, 233);   
+ font-family: 'Times New Roman', Times, serif;
+ text-align: justify;
+ justify-content: center;
+ text-transform: capitalize;
+ align-items: center;
+}
+
+.search-container {
+     display: flex;
+     align-items: center;
+     background: rgb(88, 87, 87);
+     padding: 5px;
+     border-radius: 25px;
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);}
+
+input {
+     border: none;
+     outline: none;
+      padding: 10px;
+     width: 250px;
+     border-radius: 25px; }     
+
+     button {
+          background: none;
+          border: none;
+          cursor: pointer;
+          padding: 18px;
+          font-size: 18px;
+          color: white;
+          
+      }  
+
+
+.top-bar{
+     background: linear-gradient(90deg, black,rgb(6, 4, 156) ,black);
+     color: rgb(7 193 225);
+     font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid black;
+    position: sticky;
+    top: 0;
+}
+
+form{
+     float: right;
+     position: sticky;
+     top: 50px;
+     color: aqua;
+     
+}
+
+/*LINKS*/
+a{ color: blue;
+     text-decoration: none;}
+     /*background-color: rgb(10, 10, 63);}*/
+
+a:hover{ padding: 10px;
+         color: aqua;}
+
+/*a:active{ background-color: red;}*/
+
+/*Cor do Tema e texto*/
+/*h1
+{    height: 70px;
+     border-radius: 20px;
+     border-style: solid;
+     border-color: black ;
+      background: linear-gradient(90deg, black,rgb(6, 4, 156) ,black);
+      color: rgb(7 193 225);
+      text-indent: 40px;
+     }*/
+      
+h2
+{color: rgb(7 193 225)}
+
+b
+{ color: rgb(199, 68, 68);
+     text-decoration: underline;
+     
+}
+
+strong
+{ color: rgb(199, 68, 68);
+  text-decoration: underline;
+  
+}
+/*p
+{ text-align: center;
+     text-align: justify;
+     word-spacing: 3px;
+     text-indent: 
+}
+
+
+/* sempre use a tag <div class> para marcar um certo paragrafo,
+depois va no Css e escreva o nome da (div class= tony) que voce escolheu, sempre comecando com um
+ponto(.tony) */
+
+
+.foto1{ text-align: center;
+cursor: pointer;
+ touch-action: manipulation;
+}
+
+figcaption{ font-size: 12px;}
+     
+
+figure>img {
+     height: 300;
+     width: 450;
+     text-align: center;    
+}
+img{margin-left: auto;}
+
+.foto2{ cursor: pointer;}
+.foto3{cursor: pointer;}
+
+.autor{
+     color: rgb(7 193 225);
+     position: sticky;
+    top: 50px;
+}
+
+.social-incons{
+     margin-top: 10px;
+     position: sticky;
+    top: 85px;
+}
+hr{position: sticky;
+     top: 120px;}
+
+.social-incon{
+     width: 20px;
+     padding: 10px 10px 10px 0;
+}
+
+.conteiner1{
+     max-width: 888px;
+     margin: auto;
+     padding: 30px;}
+
+.conteiner2{
+     max-width: 888px;
+     margin: auto;
+     padding: 30px;
+     }
+
+.conteiner3{
+     max-width: 888px;
+     margin: auto;
+     padding: 30px;
+}
+
+.conteiner4{
+     max-width: 888px;
+     margin: auto;
+     padding: 30px;
+}
+
+.contexto1{
+     max-width: 648px;
+     margin: auto;
+}
+
+.botão{
+     margin: auto;
+     text-align: center;
+}
